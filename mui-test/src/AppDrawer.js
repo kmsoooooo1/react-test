@@ -7,7 +7,7 @@ import Hosting from './drawer/pages/hosting/Hosting';
 import Functions from './drawer/pages/functions/Functions';
 import MachineLearning from './drawer/pages/machineLearning/MachineLearning';
 
-function App() {
+function AppDrawer() {
   return (
     <Router>
       <Routes>
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppDrawer;
